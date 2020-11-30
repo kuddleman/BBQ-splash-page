@@ -60,6 +60,7 @@ Intro section
 .intro {
 	background-color: #404040;
 	background-image: url("../images/dark-ribs.jpg");
+	background-position: center;
 	background-size: cover;
 	padding: 0 .5em 2em;
 	display: flex;
@@ -75,6 +76,7 @@ Intro section
 
 	body {
 		font-size: 1.125rem;
+		display: flex;
 	}
 
 	h1 {
@@ -84,6 +86,11 @@ Intro section
 	h2,
 	h1 + p {
 		font-size: 1.75rem;
+	}
+
+	.intro,
+	.main-content {
+		width: 50%;
 	}
 
 }
