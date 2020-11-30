@@ -67,6 +67,10 @@ Intro section
 }
 
 /* ==============
-Intro section
+ media queries
 ============== */
+
+@media (min-width: 500px) {
+	
+}
 
